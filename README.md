@@ -8,11 +8,7 @@
 * The @Controller annotation is used to mark the class as the controller in Spring 3.
 * The @RequestMapping annotation is used to map the request url. It is applied on the method.
 
-#### Diagram-1
-
-![Spring_Flow](https://codenuclear.com/wp-content/uploads/2017/08/Spring_Flow.jpg "Spring_Flow")
-
-#### Diagram-2 
+#### Diagram-1 
 
 ![SpringMVCTuto-1](https://java2blog.com/wp-content/uploads/2017/07/SpringMVCTuto-1.png "SpringMVCTuto-1")
 
@@ -36,7 +32,7 @@
 * The key difference between a traditional Spring MVC controller and the RESTful web service controller is the way the HTTP response body is created. While the traditional MVC controller relies on the View technology, the RESTful web service controller simply returns the object and the object data is written directly to the HTTP response as JSON/XML. 
 
 
-#### Diagram-3
+#### Diagram-2
 
 ![PPnvoNS](http://i.imgur.com/PPnvoNS.png "PPnvoNS")
 
@@ -57,7 +53,7 @@ The following steps describe a typical Spring MVC REST workflow:
 
 * When you use the @ResponseBody annotation on a method, Spring converts the return value and writes it to the HTTP response automatically. Each method in the Controller class must be annotated with @ResponseBody.
 
-#### Diagram-4
+#### Diagram-3
 
 ![3.x-diagram](https://resources.cloud.genuitec.com/wp-content/uploads/2015/09/3.x-diagram.png "3.x-diagram")
 
