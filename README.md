@@ -287,7 +287,7 @@ public class User {
 * Download robo3t for MongoDB user interface : https://robomongo.org/download
 
 * **Steps:**  
-  * once installed above below location and run below two .exe files
+  * once installed above two softwares and go to  below locations and run below two  .exe files
   * C:\Program Files\MongoDB\Server\4.2\bin   and run
     mongod.exe then mongo.exe
   * Using mongo.exe window you should create user
